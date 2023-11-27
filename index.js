@@ -15,3 +15,7 @@ async function getKanyeQuote() {
 }
 
 getKanyeQuote();
+
+document.getElementById("btn").addEventListener('click', () => {
+    getKanyeQuote();
+})
